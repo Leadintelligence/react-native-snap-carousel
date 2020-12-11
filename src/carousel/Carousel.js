@@ -262,9 +262,9 @@ export default class Carousel extends Component {
             this._snapToItem(nextFirstItem, false, true, false, false);
         }
 
-        if (this.props.onScroll !== prevProps.onScroll) {
-          this._setScrollHandler(this.props);
-        }
+        // if (this.props.onScroll !== prevProps.onScroll) {
+        //   this._setScrollHandler(this.props);
+        // }
     }
 
     componentWillUnmount () {
